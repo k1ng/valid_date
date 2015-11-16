@@ -19,11 +19,12 @@ Or install it yourself as:
     $ gem install valid_date
 
 ## Usage
-
+```ruby
 "2008-01-01".valid_date? #=> true
 "20080101".valid_date?   #=> true
 "0000-00-00".valid_date? #=> false
 "".valid_date?           #=> false
+```
 
 
 ## Contributing
